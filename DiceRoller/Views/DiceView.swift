@@ -14,10 +14,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            Image(systemName: "die.face.1")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            Image(systemName: "die.face.\(numberOfPips)")
+                .resizable()
+                .frame(width: 100, height: 100)
                     }
+        
         .padding()
     }
 }
