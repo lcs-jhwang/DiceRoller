@@ -17,6 +17,8 @@ struct DiceView: View {
             Image(systemName: "die.face.\(numberOfPips)")
                 .resizable()
                 .frame(width: 100, height: 100)
+                .aspectRatio(1, contentMode: .fit)
+
             
             Button("Roll") {
                 withAnimation {
