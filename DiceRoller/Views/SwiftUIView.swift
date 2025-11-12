@@ -24,17 +24,20 @@ struct ContentView: View {
             .padding()
             
             HStack {
-                      Button("Remove Dice") {
+                      Button("Remove Dice" ,systemImage: "minus.circle.fill") {
                           numberOfDice -= 1
                       }
                       .buttonStyle(.bordered)
                       .disabled(numberOfDice == 1)
+                      .labelStyle(.iconOnly)
                       
-                      Button("Add Dice") {
+                      Button("Add Dice" , systemImage: "plus.circle.fill") {
                           numberOfDice += 1
                       }
                       .buttonStyle(.bordered)
-                      .disabled(numberOfDice == 3)
+                      .disabled(numberOfDice == 5)
+                      .labelStyle(.iconOnly)
+
                   }
                   .padding()
             
