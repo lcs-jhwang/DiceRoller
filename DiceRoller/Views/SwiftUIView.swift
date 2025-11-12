@@ -28,13 +28,13 @@ struct ContentView: View {
                           numberOfDice -= 1
                       }
                       .buttonStyle(.bordered)
-
+                      .disabled(numberOfDice == 1)
                       
                       Button("Add Dice") {
                           numberOfDice += 1
                       }
                       .buttonStyle(.bordered)
-
+                      .disabled(numberOfDice == 3)
                   }
                   .padding()
             
