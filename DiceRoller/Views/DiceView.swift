@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var numberOfPips: Int = 1
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            
+            Image(systemName: "die.face.1")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
+                    }
         .padding()
     }
 }
