@@ -22,6 +22,23 @@ struct ContentView: View {
                 }
             }
             .padding()
+            
+            HStack {
+                      Button("Remove Dice") {
+                          numberOfDice -= 1
+                      }
+                      .buttonStyle(.bordered)
+
+                      
+                      Button("Add Dice") {
+                          numberOfDice += 1
+                      }
+                      .buttonStyle(.bordered)
+
+                  }
+                  .padding()
+            
+            
         }
     }
 }
