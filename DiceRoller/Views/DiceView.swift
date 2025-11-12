@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DiceView: View {
     
     @State private var numberOfPips: Int = 1
     
@@ -19,9 +19,14 @@ struct ContentView: View {
                 .frame(width: 100, height: 100)
             
             Button("Roll") {
-                            numberOfPips = Int.random(in: 1...6)
-                        }
+                withAnimation {
+                    
+                    numberOfPips = Int.random(in: 1...6)
+                }
+            }
             .frame(width: 100, height: 100)
+            .buttonStyle(.bordered)
+
                     }
         
         .padding()
@@ -29,5 +34,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    DiceView()
 }
