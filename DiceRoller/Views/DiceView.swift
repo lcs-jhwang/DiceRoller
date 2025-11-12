@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var numberOfPips: Int = 1
+    @State private var numberOfPips: Int = 1
     
     var body: some View {
         VStack {
@@ -17,6 +17,11 @@ struct ContentView: View {
             Image(systemName: "die.face.\(numberOfPips)")
                 .resizable()
                 .frame(width: 100, height: 100)
+            
+            Button("Roll") {
+                            numberOfPips = Int.random(in: 1...6)
+                        }
+            .frame(width: 100, height: 100)
                     }
         
         .padding()
