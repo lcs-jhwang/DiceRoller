@@ -10,7 +10,7 @@
 		31B4250E2EC4D8E300F2565C /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4250B2EC4D8E300F2565C /* DiceView.swift */; };
 		31B4250F2EC4D8E300F2565C /* DiceRollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4250C2EC4D8E300F2565C /* DiceRollerApp.swift */; };
 		31B425102EC4D8E300F2565C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B4250A2EC4D8E300F2565C /* Assets.xcassets */; };
-		31B425132EC4DB2400F2565C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B425122EC4DB2400F2565C /* SwiftUIView.swift */; };
+		31B425132EC4DB2400F2565C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B425122EC4DB2400F2565C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		31B4250A2EC4D8E300F2565C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B4250B2EC4D8E300F2565C /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		31B4250C2EC4D8E300F2565C /* DiceRollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerApp.swift; sourceTree = "<group>"; };
-		31B425122EC4DB2400F2565C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		31B425122EC4DB2400F2565C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				31B4250B2EC4D8E300F2565C /* DiceView.swift */,
-				31B425122EC4DB2400F2565C /* SwiftUIView.swift */,
+				31B425122EC4DB2400F2565C /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			files = (
 				31B4250E2EC4D8E300F2565C /* DiceView.swift in Sources */,
 				31B4250F2EC4D8E300F2565C /* DiceRollerApp.swift in Sources */,
-				31B425132EC4DB2400F2565C /* SwiftUIView.swift in Sources */,
+				31B425132EC4DB2400F2565C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

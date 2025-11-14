@@ -7,6 +7,12 @@
 import SwiftUI
 
 
+let gradientColors: [Color] = [
+    .gradientTop,
+    .gradientBot
+]
+
+
 struct ContentView: View {
     
     @State private var numberOfDice: Int = 1
@@ -43,6 +49,8 @@ struct ContentView: View {
             
             
         }
+        .background(Gradient(colors: gradientColors))
+
     }
 }
 
